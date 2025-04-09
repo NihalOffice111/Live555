@@ -1,0 +1,366 @@
+﻿-- logger module started --
+main debug: VLC media player - 3.0.20 Vetinari
+main debug: Copyright © 1996-2023 the VideoLAN team
+main debug: revision 3.0.20-0-g6f0d0ab126b
+main debug: configured with ./configure  '--build=x86_64-linux-gnu' '--prefix=/usr' '--includedir=${prefix}/include' '--mandir=${prefix}/share/man' '--infodir=${prefix}/share/info' '--sysconfdir=/etc' '--localstatedir=/var' '--disable-option-checking' '--disable-silent-rules' '--libdir=${prefix}/lib/x86_64-linux-gnu' '--runstatedir=/run' '--disable-maintainer-mode' '--disable-dependency-tracking' '--disable-debug' '--config-cache' '--disable-update-check' '--enable-fast-install' '--docdir=/usr/share/doc/vlc' '--with-binary-version=3.0.20-3build6' '--enable-a52' '--enable-aa' '--enable-aribsub' '--enable-avahi' '--enable-bluray' '--enable-caca' '--enable-chromaprint' '--enable-chromecast' '--enable-dav1d' '--enable-dbus' '--enable-dca' '--enable-dvbpsi' '--enable-dvdnav' '--enable-faad' '--enable-flac' '--enable-fluidsynth' '--enable-freetype' '--enable-fribidi' '--enable-gles2' '--enable-gnutls' '--enable-harfbuzz' '--enable-jack' '--enable-kate' '--enable-libass' '--enable-libmpeg2' '--enable-libxml2' '--enable-lirc' '--enable-mad' '--enable-matroska' '--enable-mod' '--enable-mpc' '--enable-mpg123' '--enable-mtp' '--enable-ncurses' '--enable-notify' '--enable-ogg' '--enable-opus' '--enable-pulse' '--enable-qt' '--enable-realrtsp' '--enable-samplerate' '--enable-sftp' '--enable-shine' '--enable-shout' '--enable-skins2' '--enable-soxr' '--enable-spatialaudio' '--enable-speex' '--enable-srt' '--enable-svg' '--enable-svgdec' '--enable-taglib' '--enable-theora' '--enable-twolame' '--enable-upnp' '--enable-vdpau' '--enable-vnc' '--enable-vorbis' '--enable-x264' '--enable-x265' '--enable-zvbi' '--with-kde-solid=/usr/share/solid/actions/' '--disable-aom' '--disable-crystalhd' '--disable-d3d11va' '--disable-decklink' '--disable-directx' '--disable-dsm' '--disable-dxva2' '--disable-fdkaac' '--disable-fluidlite' '--disable-freerdp' '--disable-goom' '--disable-gst-decode' '--disable-libplacebo' '--disable-libtar' '--disable-live555' '--disable-macosx' '--disable-macosx-avfoundation' '--disable-macosx-qtkit' '--disable-mfx' '--disable-microdns' '--disable-opencv' '--disable-projectm' '--disable-schroedinger' '--disable-sdl-image' '--disable-sndio' '--disable-sparkle' '--disable-telx' '--disable-vpx' '--disable-vsxu' '--disable-wasapi' '--enable-alsa' '--enable-dc1394' '--enable-dv1394' '--enable-linsys' '--enable-nfs' '--enable-udev' '--enable-v4l2' '--enable-wayland' '--enable-vcd' '--enable-smbclient' '--disable-oss' '--enable-mmx' '--enable-sse' '--disable-neon' '--disable-altivec' '--disable-omxil' 'build_alias=x86_64-linux-gnu' 'CFLAGS=-g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/vlc-Lpjw7w/vlc-3.0.20=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/vlc-Lpjw7w/vlc-3.0.20=/usr/src/vlc-3.0.20-3build6 ' 'LDFLAGS=-Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -Wl,-z,relro -Wl,-z,now' 'CPPFLAGS=-Wdate-time -D_FORTIFY_SOURCE=3' 'CXXFLAGS=-g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/vlc-Lpjw7w/vlc-3.0.20=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/vlc-Lpjw7w/vlc-3.0.20=/usr/src/vlc-3.0.20-3build6 ' 'OBJCFLAGS=-g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/vlc-Lpjw7w/vlc-3.0.20=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/vlc-Lpjw7w/vlc-3.0.20=/usr/src/vlc-3.0.20-3build6'
+main debug: searching plug-in modules
+main debug: loading plugins cache file /usr/lib/x86_64-linux-gnu/vlc/plugins/plugins.dat
+main debug: recursively browsing `/usr/lib/x86_64-linux-gnu/vlc/plugins'
+main debug: plug-ins loaded: 518 modules
+main debug: opening config file (/home/mirafra/.config/vlc/vlcrc)
+main debug: looking for logger module matching "any": 4 candidates
+file debug: opening logfile `vlc.log'
+main debug: using logger module "file"
+main debug: translation test: code is "C"
+main debug: looking for keystore module matching "memory": 4 candidates
+main debug: using keystore module "memory"
+main debug: CPU has capabilities MMX MMXEXT SSE SSE2 SSE3 SSSE3 SSE4.1 SSE4.2 AVX AVX2 FPU 
+main debug: Creating an input for 'Media Library'
+main debug: Input is a meta file: disabling unneeded options
+main debug: using timeshift granularity of 50 MiB
+main debug: using default timeshift path
+main debug: `file/directory:///home/mirafra/.local/share/vlc/ml.xspf' gives access `file' demux `directory' path `/home/mirafra/.local/share/vlc/ml.xspf'
+main debug: creating demux: access='file' demux='directory' location='/home/mirafra/.local/share/vlc/ml.xspf' file='/home/mirafra/.local/share/vlc/ml.xspf'
+main debug: looking for access_demux module matching "file": 18 candidates
+main debug: no access_demux modules matched
+main debug: creating access: file:///home/mirafra/.local/share/vlc/ml.xspf
+main debug:  (path: /home/mirafra/.local/share/vlc/ml.xspf)
+main debug: looking for access module matching "file": 30 candidates
+main debug: using access module "filesystem"
+main debug: looking for stream_filter module matching "prefetch,cache_read": 26 candidates
+cache_read debug: Using stream method for AStream*
+cache_read debug: starting pre-buffering
+cache_read debug: received first data after 0 ms
+cache_read debug: pre-buffering done 296 bytes in 0s - 13764 KiB/s
+main debug: using stream_filter module "cache_read"
+main debug: looking for stream_filter module matching "any": 26 candidates
+playlist debug: using XSPF playlist reader
+main debug: using stream_filter module "playlist"
+main debug: stream filter added to 0x570aa010b850
+main debug: looking for stream_filter module matching "any": 26 candidates
+main debug: no stream_filter modules matched
+main debug: looking for stream_directory module matching "any": 1 candidates
+main debug: no stream_directory modules matched
+main debug: attachment of directory-extractor failed for file:///home/mirafra/.local/share/vlc/ml.xspf
+main debug: looking for stream_filter module matching "record": 26 candidates
+main debug: using stream_filter module "record"
+main debug: creating demux: access='file' demux='directory' location='/home/mirafra/.local/share/vlc/ml.xspf' file='/home/mirafra/.local/share/vlc/ml.xspf'
+main debug: looking for demux module matching "directory": 54 candidates
+main debug: using demux module "directory"
+main debug: looking for meta reader module matching "any": 2 candidates
+lua debug: Trying Lua scripts in /home/mirafra/.local/share/vlc/lua/meta/reader
+lua debug: Trying Lua scripts in /usr/lib/x86_64-linux-gnu/vlc/lua/meta/reader
+lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/meta/reader/filename.luac
+lua debug: Trying Lua scripts in /usr/share/vlc/lua/meta/reader
+main debug: no meta reader modules matched
+main debug: `file/directory:///home/mirafra/.local/share/vlc/ml.xspf' successfully opened
+main debug: looking for xml reader module matching "any": 1 candidates
+main debug: using xml reader module "xml"
+main debug: EOF reached
+main debug: removing module "directory"
+main debug: removing module "record"
+main debug: removing module "playlist"
+main debug: removing module "cache_read"
+main debug: removing module "filesystem"
+main debug: creating audio output
+main debug: looking for audio output module matching "any": 5 candidates
+vlcpulse debug: using library version 16.1.0
+vlcpulse debug:  (compiled with version 16.1.0, protocol 35)
+vlcpulse debug: connected locally to /run/user/1000/pulse/native as client #1773
+vlcpulse debug: using protocol 35, server protocol 35
+pulse debug: adding sink 55: alsa_output.pci-0000_00_1f.3.analog-stereo (Built-in Audio Analog Stereo)
+main debug: using audio output module "pulse"
+main debug: keeping audio output
+main debug: looking for interface module matching "dbus,none": 19 candidates
+dbus debug: listening on dbus as: org.mpris.MediaPlayer2.vlc
+main debug: using interface module "dbus"
+main debug: looking for interface module matching "hotkeys,none": 19 candidates
+main debug: using interface module "hotkeys"
+main debug: looking for interface module matching "globalhotkeys,none": 19 candidates
+main debug: using interface module "xcb_hotkeys"
+main: Running vlc with the default interface. Use 'cvlc' to use vlc without interface.
+main debug: looking for interface module matching "any": 19 candidates
+dbus debug: Getting All properties
+dbus debug: Getting All properties
+dbus debug: Getting All properties
+main debug: looking for extension module matching "any": 1 candidates
+lua debug: Opening Lua Extension module
+lua debug: Trying Lua scripts in /home/mirafra/.local/share/vlc/lua/extensions
+lua debug: Trying Lua scripts in /usr/lib/x86_64-linux-gnu/vlc/lua/extensions
+lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/extensions/VLSub.luac
+lua debug: Scanning Lua script /usr/lib/x86_64-linux-gnu/vlc/lua/extensions/VLSub.luac
+lua debug: Script /usr/lib/x86_64-linux-gnu/vlc/lua/extensions/VLSub.luac has the following capability flags: 0x5
+lua debug: Trying Lua scripts in /usr/share/vlc/lua/extensions
+main debug: using extension module "lua"
+main debug: using interface module "qt"
+main debug: processing request item: null, node: Playlist, skip: 0
+main debug: rebuilding array of current - root Playlist
+main debug: rebuild done - 1 items, index -1
+main debug: starting playback of new item
+main debug: resyncing on rtp://127.0.0.1:5000
+main debug: rtp://127.0.0.1:5000 is at 0
+main debug: creating new input thread
+main debug: Creating an input for 'rtp://127.0.0.1:5000'
+main debug: requesting art for new input thread
+main debug: using timeshift granularity of 50 MiB
+main debug: using default timeshift path
+main debug: `rtp://127.0.0.1:5000' gives access `rtp' demux `any' path `127.0.0.1:5000'
+main debug: creating demux: access='rtp' demux='any' location='127.0.0.1:5000' file='(null)'
+main debug: looking for access_demux module matching "rtp": 18 candidates
+main debug: net: opening 127.0.0.1 datagram port 5000
+main debug: using access_demux module "rtp"
+main debug: looking for meta reader module matching "any": 2 candidates
+lua debug: Trying Lua scripts in /home/mirafra/.local/share/vlc/lua/meta/reader
+lua debug: Trying Lua scripts in /usr/lib/x86_64-linux-gnu/vlc/lua/meta/reader
+lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/meta/reader/filename.luac
+lua debug: Trying Lua scripts in /usr/share/vlc/lua/meta/reader
+main debug: no meta reader modules matched
+main debug: `rtp://127.0.0.1:5000' successfully opened
+main debug: looking for meta fetcher module matching "any": 1 candidates
+lua debug: Trying Lua scripts in /home/mirafra/.local/share/vlc/lua/meta/fetcher
+lua debug: Trying Lua scripts in /usr/lib/x86_64-linux-gnu/vlc/lua/meta/fetcher
+lua debug: Trying Lua scripts in /usr/share/vlc/lua/meta/fetcher
+main debug: no meta fetcher modules matched
+main debug: looking for art finder module matching "any": 2 candidates
+lua debug: Trying Lua scripts in /home/mirafra/.local/share/vlc/lua/meta/art
+lua debug: Trying Lua scripts in /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art
+lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/00_musicbrainz.luac
+lua debug: skipping script (unmatched scope) /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/00_musicbrainz.luac
+lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/01_googleimage.luac
+lua debug: skipping script (unmatched scope) /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/01_googleimage.luac
+lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/02_frenchtv.luac
+lua debug: skipping script (unmatched scope) /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/02_frenchtv.luac
+lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/03_lastfm.luac
+lua debug: skipping script (unmatched scope) /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/03_lastfm.luac
+lua debug: Trying Lua scripts in /usr/share/vlc/lua/meta/art
+main debug: no art finder modules matched
+main debug: looking for meta fetcher module matching "any": 1 candidates
+lua debug: Trying Lua scripts in /home/mirafra/.local/share/vlc/lua/meta/fetcher
+lua debug: Trying Lua scripts in /usr/lib/x86_64-linux-gnu/vlc/lua/meta/fetcher
+lua debug: Trying Lua scripts in /usr/share/vlc/lua/meta/fetcher
+main debug: no meta fetcher modules matched
+main debug: looking for art finder module matching "any": 2 candidates
+lua debug: Trying Lua scripts in /home/mirafra/.local/share/vlc/lua/meta/art
+lua debug: Trying Lua scripts in /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art
+lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/00_musicbrainz.luac
+lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/01_googleimage.luac
+lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/02_frenchtv.luac
+lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/03_lastfm.luac
+lua debug: Trying Lua scripts in /usr/share/vlc/lua/meta/art
+main debug: no art finder modules matched
+qt debug: IM: Setting an input
+main debug: exiting
+main debug: removing all interfaces
+main debug: removing module "qt"
+main debug: deactivating the playlist
+main debug: incoming request - stopping current input
+main debug: removing module "rtp"
+main debug: dead input
+main debug: nothing to play
+main debug: removing module "pulse"
+qt debug: requesting exit...
+qt debug: waiting for UI thread...
+qt debug: IM: Deleting the input
+qt debug: video widget is orphaned
+main debug: exiting
+qt debug: QApp exec() finished
+qt debug: video widget is orphaned
+qt debug: Killing extension dialog provider
+qt debug: ExtensionsDialogProvider is quitting...
+main debug: removing module "lua"
+main debug: removing module "xcb_hotkeys"
+main debug: removing module "hotkeys"
+main debug: removing module "dbus"
+main debug: destroying
+main debug: saving media library to file /home/mirafra/.local/share/vlc/ml.xspf.tmp780063
+main debug: looking for playlist export module matching "export-xspf": 4 candidates
+main debug: using playlist export module "export"
+main debug: removing module "export"
+main debug: deleting item `Media Library'
+main debug: deleting item `rtp://127.0.0.1:5000'
+main debug: deleting item `Playlist'
+main debug: removing module "memory"
+-- logger module stopped --
+﻿-- logger module started --
+main debug: VLC media player - 3.0.20 Vetinari
+main debug: Copyright © 1996-2023 the VideoLAN team
+main debug: revision 3.0.20-0-g6f0d0ab126b
+main debug: configured with ./configure  '--build=x86_64-linux-gnu' '--prefix=/usr' '--includedir=${prefix}/include' '--mandir=${prefix}/share/man' '--infodir=${prefix}/share/info' '--sysconfdir=/etc' '--localstatedir=/var' '--disable-option-checking' '--disable-silent-rules' '--libdir=${prefix}/lib/x86_64-linux-gnu' '--runstatedir=/run' '--disable-maintainer-mode' '--disable-dependency-tracking' '--disable-debug' '--config-cache' '--disable-update-check' '--enable-fast-install' '--docdir=/usr/share/doc/vlc' '--with-binary-version=3.0.20-3build6' '--enable-a52' '--enable-aa' '--enable-aribsub' '--enable-avahi' '--enable-bluray' '--enable-caca' '--enable-chromaprint' '--enable-chromecast' '--enable-dav1d' '--enable-dbus' '--enable-dca' '--enable-dvbpsi' '--enable-dvdnav' '--enable-faad' '--enable-flac' '--enable-fluidsynth' '--enable-freetype' '--enable-fribidi' '--enable-gles2' '--enable-gnutls' '--enable-harfbuzz' '--enable-jack' '--enable-kate' '--enable-libass' '--enable-libmpeg2' '--enable-libxml2' '--enable-lirc' '--enable-mad' '--enable-matroska' '--enable-mod' '--enable-mpc' '--enable-mpg123' '--enable-mtp' '--enable-ncurses' '--enable-notify' '--enable-ogg' '--enable-opus' '--enable-pulse' '--enable-qt' '--enable-realrtsp' '--enable-samplerate' '--enable-sftp' '--enable-shine' '--enable-shout' '--enable-skins2' '--enable-soxr' '--enable-spatialaudio' '--enable-speex' '--enable-srt' '--enable-svg' '--enable-svgdec' '--enable-taglib' '--enable-theora' '--enable-twolame' '--enable-upnp' '--enable-vdpau' '--enable-vnc' '--enable-vorbis' '--enable-x264' '--enable-x265' '--enable-zvbi' '--with-kde-solid=/usr/share/solid/actions/' '--disable-aom' '--disable-crystalhd' '--disable-d3d11va' '--disable-decklink' '--disable-directx' '--disable-dsm' '--disable-dxva2' '--disable-fdkaac' '--disable-fluidlite' '--disable-freerdp' '--disable-goom' '--disable-gst-decode' '--disable-libplacebo' '--disable-libtar' '--disable-live555' '--disable-macosx' '--disable-macosx-avfoundation' '--disable-macosx-qtkit' '--disable-mfx' '--disable-microdns' '--disable-opencv' '--disable-projectm' '--disable-schroedinger' '--disable-sdl-image' '--disable-sndio' '--disable-sparkle' '--disable-telx' '--disable-vpx' '--disable-vsxu' '--disable-wasapi' '--enable-alsa' '--enable-dc1394' '--enable-dv1394' '--enable-linsys' '--enable-nfs' '--enable-udev' '--enable-v4l2' '--enable-wayland' '--enable-vcd' '--enable-smbclient' '--disable-oss' '--enable-mmx' '--enable-sse' '--disable-neon' '--disable-altivec' '--disable-omxil' 'build_alias=x86_64-linux-gnu' 'CFLAGS=-g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/vlc-Lpjw7w/vlc-3.0.20=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/vlc-Lpjw7w/vlc-3.0.20=/usr/src/vlc-3.0.20-3build6 ' 'LDFLAGS=-Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -Wl,-z,relro -Wl,-z,now' 'CPPFLAGS=-Wdate-time -D_FORTIFY_SOURCE=3' 'CXXFLAGS=-g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/vlc-Lpjw7w/vlc-3.0.20=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/vlc-Lpjw7w/vlc-3.0.20=/usr/src/vlc-3.0.20-3build6 ' 'OBJCFLAGS=-g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/vlc-Lpjw7w/vlc-3.0.20=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/vlc-Lpjw7w/vlc-3.0.20=/usr/src/vlc-3.0.20-3build6'
+main debug: searching plug-in modules
+main debug: loading plugins cache file /usr/lib/x86_64-linux-gnu/vlc/plugins/plugins.dat
+main debug: recursively browsing `/usr/lib/x86_64-linux-gnu/vlc/plugins'
+main debug: plug-ins loaded: 518 modules
+main debug: opening config file (/home/mirafra/.config/vlc/vlcrc)
+main debug: looking for logger module matching "any": 4 candidates
+file debug: opening logfile `vlc.log'
+main debug: using logger module "file"
+main debug: translation test: code is "C"
+main debug: looking for keystore module matching "memory": 4 candidates
+main debug: using keystore module "memory"
+main debug: CPU has capabilities MMX MMXEXT SSE SSE2 SSE3 SSSE3 SSE4.1 SSE4.2 AVX AVX2 FPU 
+main debug: Creating an input for 'Media Library'
+main debug: Input is a meta file: disabling unneeded options
+main debug: using timeshift granularity of 50 MiB
+main debug: using default timeshift path
+main debug: `file/directory:///home/mirafra/.local/share/vlc/ml.xspf' gives access `file' demux `directory' path `/home/mirafra/.local/share/vlc/ml.xspf'
+main debug: creating demux: access='file' demux='directory' location='/home/mirafra/.local/share/vlc/ml.xspf' file='/home/mirafra/.local/share/vlc/ml.xspf'
+main debug: looking for access_demux module matching "file": 18 candidates
+main debug: no access_demux modules matched
+main debug: creating access: file:///home/mirafra/.local/share/vlc/ml.xspf
+main debug:  (path: /home/mirafra/.local/share/vlc/ml.xspf)
+main debug: looking for access module matching "file": 30 candidates
+main debug: using access module "filesystem"
+main debug: looking for stream_filter module matching "prefetch,cache_read": 26 candidates
+cache_read debug: Using stream method for AStream*
+cache_read debug: starting pre-buffering
+cache_read debug: received first data after 0 ms
+cache_read debug: pre-buffering done 296 bytes in 0s - 11117 KiB/s
+main debug: using stream_filter module "cache_read"
+main debug: looking for stream_filter module matching "any": 26 candidates
+playlist debug: using XSPF playlist reader
+main debug: using stream_filter module "playlist"
+main debug: stream filter added to 0x5c89f1dca850
+main debug: looking for stream_filter module matching "any": 26 candidates
+main debug: no stream_filter modules matched
+main debug: looking for stream_directory module matching "any": 1 candidates
+main debug: no stream_directory modules matched
+main debug: attachment of directory-extractor failed for file:///home/mirafra/.local/share/vlc/ml.xspf
+main debug: looking for stream_filter module matching "record": 26 candidates
+main debug: using stream_filter module "record"
+main debug: creating demux: access='file' demux='directory' location='/home/mirafra/.local/share/vlc/ml.xspf' file='/home/mirafra/.local/share/vlc/ml.xspf'
+main debug: looking for demux module matching "directory": 54 candidates
+main debug: using demux module "directory"
+main debug: looking for meta reader module matching "any": 2 candidates
+lua debug: Trying Lua scripts in /home/mirafra/.local/share/vlc/lua/meta/reader
+lua debug: Trying Lua scripts in /usr/lib/x86_64-linux-gnu/vlc/lua/meta/reader
+lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/meta/reader/filename.luac
+lua debug: Trying Lua scripts in /usr/share/vlc/lua/meta/reader
+main debug: no meta reader modules matched
+main debug: `file/directory:///home/mirafra/.local/share/vlc/ml.xspf' successfully opened
+main debug: looking for xml reader module matching "any": 1 candidates
+main debug: using xml reader module "xml"
+main debug: EOF reached
+main debug: removing module "directory"
+main debug: removing module "record"
+main debug: removing module "playlist"
+main debug: removing module "cache_read"
+main debug: removing module "filesystem"
+main debug: creating audio output
+main debug: looking for audio output module matching "any": 5 candidates
+vlcpulse debug: using library version 16.1.0
+vlcpulse debug:  (compiled with version 16.1.0, protocol 35)
+vlcpulse debug: connected locally to /run/user/1000/pulse/native as client #1798
+vlcpulse debug: using protocol 35, server protocol 35
+pulse debug: adding sink 55: alsa_output.pci-0000_00_1f.3.analog-stereo (Built-in Audio Analog Stereo)
+main debug: using audio output module "pulse"
+main debug: keeping audio output
+main debug: looking for interface module matching "dbus,none": 19 candidates
+dbus debug: listening on dbus as: org.mpris.MediaPlayer2.vlc
+main debug: using interface module "dbus"
+main debug: looking for interface module matching "hotkeys,none": 19 candidates
+main debug: using interface module "hotkeys"
+main debug: looking for interface module matching "globalhotkeys,none": 19 candidates
+main debug: using interface module "xcb_hotkeys"
+main: Running vlc with the default interface. Use 'cvlc' to use vlc without interface.
+main debug: looking for interface module matching "any": 19 candidates
+dbus debug: Getting All properties
+dbus debug: Getting All properties
+dbus debug: Getting All properties
+main debug: looking for extension module matching "any": 1 candidates
+lua debug: Opening Lua Extension module
+lua debug: Trying Lua scripts in /home/mirafra/.local/share/vlc/lua/extensions
+lua debug: Trying Lua scripts in /usr/lib/x86_64-linux-gnu/vlc/lua/extensions
+lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/extensions/VLSub.luac
+lua debug: Scanning Lua script /usr/lib/x86_64-linux-gnu/vlc/lua/extensions/VLSub.luac
+lua debug: Script /usr/lib/x86_64-linux-gnu/vlc/lua/extensions/VLSub.luac has the following capability flags: 0x5
+lua debug: Trying Lua scripts in /usr/share/vlc/lua/extensions
+main debug: using extension module "lua"
+main debug: using interface module "qt"
+main debug: processing request item: null, node: Playlist, skip: 0
+main debug: rebuilding array of current - root Playlist
+main debug: rebuild done - 1 items, index -1
+main debug: starting playback of new item
+main debug: resyncing on rtp://127.0.0.1:5000
+main debug: rtp://127.0.0.1:5000 is at 0
+main debug: creating new input thread
+main debug: Creating an input for 'rtp://127.0.0.1:5000'
+main debug: requesting art for new input thread
+main debug: using timeshift granularity of 50 MiB
+main debug: using default timeshift path
+main debug: `rtp://127.0.0.1:5000' gives access `rtp' demux `any' path `127.0.0.1:5000'
+main debug: creating demux: access='rtp' demux='any' location='127.0.0.1:5000' file='(null)'
+main debug: looking for access_demux module matching "rtp": 18 candidates
+main debug: looking for meta fetcher module matching "any": 1 candidates
+lua debug: Trying Lua scripts in /home/mirafra/.local/share/vlc/lua/meta/fetcher
+lua debug: Trying Lua scripts in /usr/lib/x86_64-linux-gnu/vlc/lua/meta/fetcher
+lua debug: Trying Lua scripts in /usr/share/vlc/lua/meta/fetcher
+main debug: no meta fetcher modules matched
+main debug: looking for art finder module matching "any": 2 candidates
+main debug: net: opening 127.0.0.1 datagram port 5000
+lua debug: Trying Lua scripts in /home/mirafra/.local/share/vlc/lua/meta/art
+lua debug: Trying Lua scripts in /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art
+lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/00_musicbrainz.luac
+lua debug: skipping script (unmatched scope) /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/00_musicbrainz.luac
+lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/01_googleimage.luac
+main debug: using access_demux module "rtp"
+main debug: looking for meta reader module matching "any": 2 candidates
+lua debug: Trying Lua scripts in /home/mirafra/.local/share/vlc/lua/meta/reader
+lua debug: Trying Lua scripts in /usr/lib/x86_64-linux-gnu/vlc/lua/meta/reader
+lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/meta/reader/filename.luac
+lua debug: skipping script (unmatched scope) /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/01_googleimage.luac
+lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/02_frenchtv.luac
+lua debug: skipping script (unmatched scope) /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/02_frenchtv.luac
+lua debug: Trying Lua scripts in /usr/share/vlc/lua/meta/reader
+main debug: no meta reader modules matched
+main debug: `rtp://127.0.0.1:5000' successfully opened
+lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/03_lastfm.luac
+lua debug: skipping script (unmatched scope) /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/03_lastfm.luac
+lua debug: Trying Lua scripts in /usr/share/vlc/lua/meta/art
+main debug: no art finder modules matched
+main debug: looking for meta fetcher module matching "any": 1 candidates
+lua debug: Trying Lua scripts in /home/mirafra/.local/share/vlc/lua/meta/fetcher
+lua debug: Trying Lua scripts in /usr/lib/x86_64-linux-gnu/vlc/lua/meta/fetcher
+lua debug: Trying Lua scripts in /usr/share/vlc/lua/meta/fetcher
+main debug: no meta fetcher modules matched
+main debug: looking for art finder module matching "any": 2 candidates
+lua debug: Trying Lua scripts in /home/mirafra/.local/share/vlc/lua/meta/art
+lua debug: Trying Lua scripts in /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art
+lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/00_musicbrainz.luac
+lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/01_googleimage.luac
+lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/02_frenchtv.luac
+qt debug: IM: Setting an input
+lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/03_lastfm.luac
+lua debug: Trying Lua scripts in /usr/share/vlc/lua/meta/art
+main debug: no art finder modules matched
+main debug: exiting
+main debug: removing all interfaces
+main debug: removing module "qt"
+main debug: deactivating the playlist
+main debug: incoming request - stopping current input
+main debug: removing module "rtp"
+main debug: dead input
+main debug: nothing to play
+main debug: removing module "pulse"
+qt debug: requesting exit...
+qt debug: waiting for UI thread...
+qt debug: IM: Deleting the input
+qt debug: video widget is orphaned
+main debug: exiting
+qt debug: QApp exec() finished
+qt debug: video widget is orphaned
+qt debug: Killing extension dialog provider
+qt debug: ExtensionsDialogProvider is quitting...
+main debug: removing module "lua"
+main debug: removing module "xcb_hotkeys"
+main debug: removing module "hotkeys"
+main debug: removing module "dbus"
+main debug: destroying
+main debug: saving media library to file /home/mirafra/.local/share/vlc/ml.xspf.tmp783170
+main debug: looking for playlist export module matching "export-xspf": 4 candidates
+main debug: using playlist export module "export"
+main debug: removing module "export"
+main debug: deleting item `Media Library'
+main debug: deleting item `rtp://127.0.0.1:5000'
+main debug: deleting item `Playlist'
+main debug: removing module "memory"
+-- logger module stopped --
